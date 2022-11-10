@@ -6,6 +6,7 @@ const Home: NextPage = () => {
   return (
     <>
     <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <title>
         Cuvel
       </title>
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
         <ul className="flex justify-center shadow-lg">
           <li className="px-10 py-7 cursor-pointer float-left"><a>Menu</a></li>
           <li className="px-10 py-7 cursor-pointer float-left"><a>About</a></li>
-          <li className="px-10 py-4 cursor-pointer float-left"><a><Image src={"/logo.png"} alt="logo" width={"50"} height={"50"}/></a></li>
+          <li className="px-10 py-4 cursor-pointer float-left w-max block"><a><Image src={"/logo.png"} alt="logo" width={"50"} height={"50"}/></a></li>
           <li className="px-10 py-7 cursor-pointer float-left"><a>Games</a></li>
           <li className="px-10 py-7 cursor-pointer float-left"><a>Contect</a></li>
         </ul>
